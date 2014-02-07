@@ -10,15 +10,13 @@ The script was tested on OSX machines with PHP 5.x and GD2 library
 
 ## How to use
 
-- CLI
+- CLI - [result](http://screencast.com/t/bbaquzcRj2)
     
         $ cd /path/to/repo
     
         # Generate a 20x20 px icon with a red circle(ellipse) having "23" written inside
+        # The icon is saved inside /path/to/repo/tmp
         $ php route_icon.php bg=FF0000 fg=FFFFFF t=23
-        
-        # The file is saved inside /path/to/repo/tmp folder
-        # Result - http://screencast.com/t/bbaquzcRj2
         
         # Generate same icon but 100x100px size
         $ php route_icon.php w=100 bg=FF0000 fg=FFFFFF t=23
