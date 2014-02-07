@@ -64,7 +64,7 @@ imagefilledellipse(
 );
 
 // Put the text on top of the circle
-$font = dirname(__FILE__) . '/Crimson-Bold.otf';
+$font = dirname(__FILE__) . '/fonts/Crimson-Bold.otf';
 $font_size = $image_w * 2.5;
 $bbox = imagettfbbox($font_size, 0, $font, $circle_text);
 
