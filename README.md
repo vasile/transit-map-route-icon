@@ -1,6 +1,6 @@
 ## About
 
-This PHP script generates route icons used by vehicles(markers) from [Transit Simulator](https://github.com/vasile/transit-simulator) web application that animates vehicles on a map based on timetables and network.
+This PHP script generates route icons used by vehicles(markers) from [Transit Map](https://github.com/vasile/transit-map) web application that animates vehicles on a map based on timetables and network.
 
 The script was tested on OSX machines with PHP 5.x and GD2 library
 
@@ -21,7 +21,7 @@ The script was tested on OSX machines with PHP 5.x and GD2 library
         # Generate same icon but 100x100px size
         $ php route_icon.php w=100 bg=FF0000 fg=FFFFFF t=23
         
-- in browser navigate to [route_icon.php?w=100&bg=FF0000&fg=FFFFFF&t=23](http://localhost/transit-simulator-route-icon/route_icon.php?w=100&bg=FF0000&fg=FFFFFF&t=23)
+- in browser navigate to [route_icon.php?w=100&bg=FF0000&fg=FFFFFF&t=23](http://localhost/transit-map-route-icon/route_icon.php?w=100&bg=FF0000&fg=FFFFFF&t=23)
 
 
 ## License
